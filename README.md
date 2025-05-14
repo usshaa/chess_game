@@ -53,7 +53,7 @@ A web-based chess game built with Flask, featuring different difficulty levels a
 4. Log out and log back in for the group changes to take effect
 5. Clone this repository:
    ```
-   git clone https://github.com/usshaa/chess-game.git
+   git clone https://usshaa:Your_Token@github.com/usshaa/chess_game.git
    cd chess-game
    ```
 6. Build and run the Docker container:
