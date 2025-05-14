@@ -54,12 +54,12 @@ A web-based chess game built with Flask, featuring different difficulty levels a
 5. Clone this repository:
    ```
    git clone https://usshaa:Your_Token@github.com/usshaa/chess_game.git
-   cd chess-game
+   cd chess_game
    ```
 6. Build and run the Docker container:
    ```
-   docker build -t chess-game .
-   docker run -d -p 80:8000 --name chess-game --restart always chess-game
+   docker build -t chess_game .
+   docker run -d -p 80:8000 --name chess_game --restart always chess_game
    ```
 7. Access your chess game at `http://your-ec2-ip`
 
@@ -81,15 +81,15 @@ To set up CI/CD:
 
 ## Docker Commands
 
-- Build the image: `docker build -t chess-game .`
-- Run the container: `docker run -p 80:8000 chess-game`
+- Build the image: `docker build -t chess_game .`
+- Run the container: `docker run -p 80:8000 chess_game`
 - Build and run with Docker Compose: `docker-compose up -d`
 - Stop containers: `docker-compose down`
 
 ## Project Structure
 
 ```
-chess-game/
+chess_game/
 ├── app/                    # Application code
 │   ├── static/             # Static files (CSS, JS)
 │   ├── templates/          # HTML templates
