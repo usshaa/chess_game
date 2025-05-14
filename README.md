@@ -58,6 +58,8 @@ A web-based chess game built with Flask, featuring different difficulty levels a
    ```
 6. Build and run the Docker container:
    ```
+   Add your user to the docker group
+   sudo usermod -aG docker ubuntu
    docker build -t chess_game .
    docker run -d -p 80:8000 --name chess_game --restart always chess_game
    ```
